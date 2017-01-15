@@ -29,7 +29,7 @@
 			],
 			[
 				"di",
-				"div	Tag"
+				"div\tTag"
 			],
 			[
 				"tabl",
@@ -37,11 +37,11 @@
 			],
 			[
 				"cl",
-				"class	Attr"
+				"class\tAttr"
 			],
 			[
 				"tab",
-				"table	Tag"
+				"table\tTag"
 			],
 			[
 				"c",
@@ -55,7 +55,24 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 94,
+				"buffer_size": 770,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/logic.js",
+			"settings":
+			{
+				"buffer_size": 854,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/jmarsh/Dropbox/github/100DaysOfCode/log.md",
+			"settings":
+			{
+				"buffer_size": 5396,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -205,7 +222,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -214,15 +231,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 94,
+						"buffer_size": 770,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								78,
-								78
+								383,
+								383
 							]
 						],
 						"settings":
@@ -233,11 +250,67 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "js/logic.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/jmarsh/Dropbox/github/100DaysOfCode/log.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5308,
+								5308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1938.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
@@ -261,7 +334,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
