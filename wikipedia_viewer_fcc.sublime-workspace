@@ -1,0 +1,356 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"quote",
+				"quoteButton"
+			],
+			[
+				"q",
+				"querySelector"
+			],
+			[
+				"to",
+				"toTextualDescription"
+			],
+			[
+				"weather",
+				"weatherIcon"
+			],
+			[
+				"icon",
+				"iconURL"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"tabl",
+				"table-bordered"
+			],
+			[
+				"cl",
+				"class	Attr"
+			],
+			[
+				"tab",
+				"table	Tag"
+			],
+			[
+				"c",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 94,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 22,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/schrobot/Dropbox/github/100DaysOfCode/log.md",
+		"/C/Users/schrobot/Dropbox/github/random_quote_fcc/to_do.md",
+		"/C/Users/schrobot/Dropbox/github/random_quote_fcc/js/script.js",
+		"/C/Users/schrobot/Dropbox/github/random_quote_fcc/css/style.css",
+		"/C/Users/schrobot/Dropbox/github/random_quote_fcc/index.html",
+		"/C/Users/schrobot/Dropbox/github/fcc_tribute_sgt_johnson/Index.html",
+		"/C/Users/schrobot/Dropbox/github/fcc_weather_api/js/logic.js",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/color_game/colorGame.js",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/color_game/colorGame.html",
+		"/C/Users/schrobot/Dropbox/github/fcc_weather_api/css/style.css",
+		"/C/Users/schrobot/Dropbox/github/fcc_weather_api/weather_test.htm",
+		"/C/Users/schrobot/Dropbox/github/fcc_weather_api/Shortcuts.md",
+		"/C/Users/schrobot/Dropbox/github/fcc_weather_api/outline.md",
+		"/C/Users/schrobot/Dropbox/github/fcc_weather_api/logic.js",
+		"/C/Users/schrobot/Dropbox/github/fcc_weather_api/style.css",
+		"/F/Media/Downloads/icomoon_8_icons/demo.html",
+		"/F/Media/Downloads/icomoon_8_icons/style.css",
+		"/F/Media/Downloads/icomoon_8_icons/demo-files/demo.css",
+		"/F/Media/Downloads/IcoMoon-Free-master/IcoMoon-Free-master/README.md",
+		"/C/Users/schrobot/Dropbox/github/100-days-of-code/log.md",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/css/site.css",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/Shortcuts.html",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/Index.html",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/Practice_Carousel.html",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/About (3).html",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/main_1.html",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/Index (3).html",
+		"/C/Users/schrobot/Dropbox/VS/Tribute - Sgt Johnson/Index (3).html",
+		"/C/Users/schrobot/Dropbox/VS/Tribute - Sgt Johnson/Practice_Carousel.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice_Carousel.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/js/site.js",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice_w14_03.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Shortcuts.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/css/site.css",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index (3).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact (3).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About (3).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice_DO_NOT_EDIT.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index_before_M5.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact (2).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index (2).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About (2).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/js/bootstrap.min.js",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/images/lebowski-1.jpg",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact2.html",
+		"/C/Users/schrobot/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About2.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"50",
+			"primary",
+			"3",
+			"href",
+			"Buscemi",
+			"Two",
+			"list",
+			"class",
+			"Character",
+			"button",
+			"item",
+			"                <li class=\"list-group-item\">Two</li>\n",
+			"item",
+			"class",
+			"                        <li class=\"nav\"><a href=\"about.html\">About</a></li>\n",
+			"li",
+			"nav",
+			"previous",
+			"open tab",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wikipedia_viewer_fcc.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"outline.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 170.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
