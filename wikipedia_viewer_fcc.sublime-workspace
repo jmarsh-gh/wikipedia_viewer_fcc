@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"query",
+				"querySelector"
+			],
+			[
 				"quote",
 				"quoteButton"
 			],
@@ -52,10 +56,23 @@
 	"buffers":
 	[
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>Wikipedia Viewer</title>\n\t<link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/superhero.bootstrap.min.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n    <!-- <link rel=\"stylesheet\" type=\"text/css\" href=\"jquery-ui.min.css\"> -->\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\">\n</head>\n<body>\n<br>\n<div class=\"container well\">\n\t<h1>Wikipedia Viewer</h1>\n\t<input type=\"\" name=\"\">   <button class=\"btn-sml btn-primary\">Search</button>\n\t<br>\n\t<br>\n\t<ul id=\"list\">\n\t</ul>\n\n\t<a href=\"https://en.wikipedia.org/wiki/Special:Random\" target=\"_blank\">\n\t\t<button class=\"btn btn-primary\" onclick=\"this.blur()\">Random Article</button>\n\t</a>\n\n\t<ol>\n\t\t<li>one</li>\n\t\t<li>two</li>\n\t\t<li>three</li>\n\t</ol>\n\n</div>\n\n\t<footer class=\"container\">\n    \t<p><a href=\"http://codepen.io/jmarshcodepen/\" target=\"_blank\">J Marsh</a> made this.</p>\n\t</footer>\n\n\t<script src=\"css/bootstrap.min.js\"></script>\n\t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js\"></script>\n\t<!-- <script src=\"jquery-ui.min.js\"></script> -->\n\t<script type=\"text/javascript\" src=\"js/logic.js\"></script>\n</body>\n</html>",
 			"file": "index.html",
+			"file_size": 1293,
+			"file_write_time": 131289904184662180,
 			"settings":
 			{
-				"buffer_size": 770,
+				"buffer_size": 1270,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 103,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -63,24 +80,17 @@
 			"file": "js/logic.js",
 			"settings":
 			{
-				"buffer_size": 854,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/home/jmarsh/Dropbox/github/100DaysOfCode/log.md",
-			"settings":
-			{
-				"buffer_size": 5396,
+				"buffer_size": 2057,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "README.md",
+			"file": "todo.md",
 			"settings":
 			{
-				"buffer_size": 22,
+				"buffer_size": 615,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -117,11 +127,13 @@
 	},
 	"file_history":
 	[
+		"/F/Media/Downloads/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/index.html",
+		"/C/Users/schrobot/Dropbox/github/wikipedia_viewer_fcc/README.md",
+		"/C/Users/schrobot/Dropbox/github/random_quote_fcc/js/script.js",
+		"/C/Users/schrobot/Dropbox/github/random_quote_fcc/index.html",
 		"/C/Users/schrobot/Dropbox/github/100DaysOfCode/log.md",
 		"/C/Users/schrobot/Dropbox/github/random_quote_fcc/to_do.md",
-		"/C/Users/schrobot/Dropbox/github/random_quote_fcc/js/script.js",
 		"/C/Users/schrobot/Dropbox/github/random_quote_fcc/css/style.css",
-		"/C/Users/schrobot/Dropbox/github/random_quote_fcc/index.html",
 		"/C/Users/schrobot/Dropbox/github/fcc_tribute_sgt_johnson/Index.html",
 		"/C/Users/schrobot/Dropbox/github/fcc_weather_api/js/logic.js",
 		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/color_game/colorGame.js",
@@ -231,15 +243,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 770,
+						"buffer_size": 1270,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								383,
-								383
+								325,
+								325
 							]
 						],
 						"settings":
@@ -250,60 +262,61 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/logic.js",
+					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 854,
+						"buffer_size": 103,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								55,
+								55
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/home/jmarsh/Dropbox/github/100DaysOfCode/log.md",
+					"file": "js/logic.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5396,
+						"buffer_size": 2057,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5308,
-								5308
+								1695,
+								1695
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1938.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -311,19 +324,19 @@
 				},
 				{
 					"buffer": 3,
-					"file": "README.md",
+					"file": "todo.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22,
+						"buffer_size": 615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22,
-								22
+								613,
+								613
 							]
 						],
 						"settings":
@@ -334,7 +347,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

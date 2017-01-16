@@ -1,5 +1,7 @@
 function main(){
 	console.log("linked");
+
+
 	//Get search results
 	$.getJSON("https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=bees&callback=?", function(json) {	
 		console.log(json.query.search[0].title);
@@ -22,6 +24,9 @@ function main(){
 				var list = document.querySelector("#list");
 				//Make this slice at indexOf the first period (so one sentence)
 				//Make it only slice at word boundary period
+				//Maybe if/else search with regexp if there us a nonboundary period.
+				var myReg = /\b\w\./;
+				console.log(extract.search(myReg));
 				list.appendChild(document.createElement('li')).textContent=articleTitle + ": " + extract.substring(0, extract.indexOf(".") + 1);
 
 			}); //Article GET
@@ -29,10 +34,11 @@ function main(){
 	});	// Search Result GET
 
 
-	var random = document.querySelector("button");
-	random.addEventListener("click", function(){
-	});
+	// var random = document.querySelector("button");
+	// random.addEventListener("click", function(){
+	// });
 
+$("ol").selectable();
 };
 
 $(document).ready(main());

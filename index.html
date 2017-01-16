@@ -5,19 +5,29 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/superhero.bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="jquery-ui.min.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <br>
 <div class="container well">
-<h1>Wikipedia Viewer</h1>
-<input type="" name="">
-<br>
-<br>
-<ul id="list">
-</ul>
+	<h1>Wikipedia Viewer</h1>
+	<input type="" name="">   <button class="btn-sml btn-primary">Search</button>
+	<br>
+	<br>
+	<ul id="list">
+	</ul>
 
-<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="btn btn-primary">Random Article</button></a>
+	<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+		<button class="btn btn-primary" onclick="this.blur()">Random Article</button>
+	</a>
+
+	<ol>
+		<li>one</li>
+		<li>two</li>
+		<li>three</li>
+	</ol>
+
 </div>
 
 	<footer class="container">
@@ -26,6 +36,7 @@
 
 	<script src="css/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- <script src="jquery-ui.min.js"></script> -->
 	<script type="text/javascript" src="js/logic.js"></script>
 </body>
 </html>
