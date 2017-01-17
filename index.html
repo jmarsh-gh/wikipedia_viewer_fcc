@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/superhero.bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- <link rel="stylesheet" type="text/css" href="jquery-ui.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -22,11 +22,16 @@
 		<button class="btn btn-primary" onclick="this.blur()">Random Article</button>
 	</a>
 
-	<ol>
-		<li>one</li>
-		<li>two</li>
-		<li>three</li>
+<div>
+	<ol id="selectable">
+		<li class="ui-widget-content">one</li>
+		<li class="ui-widget-content">two</li>
+		<li class="ui-widget-content">three</li>
 	</ol>
+</div>
+	<!-- <div id="resizable" class="ui-widget-content">
+  		<h3 class="ui-widget-header">Resizable</h3>
+	</div> -->
 
 </div>
 
@@ -36,7 +41,7 @@
 
 	<script src="css/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<!-- <script src="jquery-ui.min.js"></script> -->
+	<script src="js/jquery-ui.js"></script>
 	<script type="text/javascript" src="js/logic.js"></script>
 </body>
 </html>

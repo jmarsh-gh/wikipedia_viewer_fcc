@@ -28,7 +28,8 @@ function main(){
 				var myReg = /\b\w\./;
 				console.log(extract.search(myReg));
 				list.appendChild(document.createElement('li')).textContent=articleTitle + ": " + extract.substring(0, extract.indexOf(".") + 1);
-
+				// this query string links to artilce in question using the pageid from API ?curid=4654
+				
 			}); //Article GET
 		}; //FOR IN
 	});	// Search Result GET
@@ -38,7 +39,7 @@ function main(){
 	// random.addEventListener("click", function(){
 	// });
 
-$("ol").selectable();
+
 };
 
 $(document).ready(main());
