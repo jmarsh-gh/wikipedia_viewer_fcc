@@ -22,17 +22,26 @@ function main(){
 				$.getJSON(url, function(json) {	
 					var extract = json.query.pages[json.query.pageids[0]].extract;
 					var articleTitle = json.query.pages[json.query.pageids[0]].title;
-					console.log(articleTitle);
-					console.log(extract);
 					var list = document.querySelector("#list");
+
+
 					//Make this slice at indexOf the first period (so one sentence)
 					//Make it only slice at word boundary period
 					//Maybe if/else search with regexp if there us a nonboundary period.
 					var myReg = /\b\w\./;
 					console.log(extract.search(myReg));
-					// list.appendChild(document.createElement('li')).textContent=articleTitle + ": " + extract.substring(0, extract.indexOf(".") + 1);
-					list.appendChild(document.createElement('li')).innerHTML = "<h4>" + articleTitle + "</h4>" + "<h5>" + extract.substring(0, extract.indexOf(".") + 1) + "</h5>"; 
-					// this query string links to artilce in question using the pageid from API ?curid=4654
+
+					//list.appendChild(document.createElement('li')).textContent=articleTitle + ": " + extract.substring(0, extract.indexOf(".") + 1);
+					//list.appendChild(document.createElement('li')).innerHTML = "<h4>" + articleTitle + "</h4>" + "<h5>" + extract.substring(0, extract.indexOf(".") + 1) + "</h5>"; 
+					
+					//try create element to a var, then add class., then appendChild.
+					var listItem = document.createElement('li'); //.innerHTML = "<h4>" + articleTitle + "</h4>" + "<h5>" + extract.substring(0, extract.indexOf(".") + 1) + "</h5>";
+					listItem.appendChild(document.createTextNode(articleTitle + ": " + extract.substring(0, extract.indexOf(".") + 1)));
+					//listItem.classList.add("list-group-item");
+					list.appendChild(listItem);
+
+
+					// this query string links to article in question using the pageid from API ?curid=4654
 					
 				}); //Article GET
 			}; //FOR IN
@@ -51,3 +60,4 @@ $(document).ready(main());
 //document.querySelector("#test").innerHTML = json.query.pages[json.query.pageids[0]].title + ": " + extract;
 //https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&indexpageids&titles=Stack%20Overflow
 //https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=bees
+//http://stackoverflow.com/questions/12577797/how-to-add-class-to-an-element-create-by-appendchild
