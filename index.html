@@ -15,8 +15,8 @@
 	<input type="" name="">   <button id="search" class="btn-sml btn-primary">Search</button>
 	<br>
 	<br>
-	<div class="list-group">
-		<ul class= "list-unstyled" id="list">
+	<div>
+		<ul class= "list-group" id="list">
 		</ul>
 	</div>
 	<!-- <div class="list-group" id="list">
@@ -30,8 +30,9 @@
 <div>
 	<ol class="list-group">
 		<li class="list-group-item active">one</li>
-		<a href="#" class="list-group-item">two</a>
-		<li class="list-group-item">three</li>
+		<a href="#" class="list-group-item active">two</a>
+		<!-- why does classList.add work on this hardcoded li but not of the js created one? -->
+		<li class="">three</li>
 	</ol>
 </div>
 <!-- <div id="resizable" class="ui-widget-content">

@@ -32,13 +32,13 @@ function main(){
 					console.log(extract.search(myReg));
 
 					//list.appendChild(document.createElement('li')).textContent=articleTitle + ": " + extract.substring(0, extract.indexOf(".") + 1);
-					//list.appendChild(document.createElement('li')).innerHTML = "<h4>" + articleTitle + "</h4>" + "<h5>" + extract.substring(0, extract.indexOf(".") + 1) + "</h5>"; 
+					list.appendChild(document.createElement('li')).innerHTML = "<h4>" + articleTitle + "</h4>" + "<h5>" + extract.substring(0, extract.indexOf(".") + 1) + "</h5>"; 
 					
 					//try create element to a var, then add class., then appendChild.
-					var listItem = document.createElement('li'); //.innerHTML = "<h4>" + articleTitle + "</h4>" + "<h5>" + extract.substring(0, extract.indexOf(".") + 1) + "</h5>";
-					listItem.appendChild(document.createTextNode(articleTitle + ": " + extract.substring(0, extract.indexOf(".") + 1)));
+					// var listItem = document.createElement('li'); //.innerHTML = "<h4>" + articleTitle + "</h4>" + "<h5>" + extract.substring(0, extract.indexOf(".") + 1) + "</h5>";
+					// listItem.appendChild(document.createTextNode(articleTitle + ": " + extract.substring(0, extract.indexOf(".") + 1)));
 					//listItem.classList.add("list-group-item");
-					list.appendChild(listItem);
+					// list.appendChild(listItem);
 
 
 					// this query string links to article in question using the pageid from API ?curid=4654
@@ -46,6 +46,7 @@ function main(){
 				}); //Article GET
 			}; //FOR IN
 		});	// Search Result GET
+		
 	}); //Search Click Event
 
 	// var random = document.querySelector("button");
@@ -53,10 +54,16 @@ function main(){
 	// });
 
 
+
 };
 
 $(document).ready(main());
 
+		var listItems = document.querySelectorAll("li");
+		for(var i = 0; i < listItems.length; i++){
+			listItems[i].classList.add("list-group-item");	
+			listItems[i].classList.add("active");
+		};
 //document.querySelector("#test").innerHTML = json.query.pages[json.query.pageids[0]].title + ": " + extract;
 //https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&indexpageids&titles=Stack%20Overflow
 //https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=bees
