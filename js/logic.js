@@ -25,7 +25,10 @@ function main(){
 				$.getJSON(url, function(json) {	
 					var extract = json.query.pages[json.query.pageids[0]].extract;
 					//truncate extract at first period
-					var extractTrunc = extract.substring(0, extract.indexOf(".") + 1);
+					// var extractTrunc = extract.substring(0, extract.indexOf(".") + 1);
+					var period = extract.search(/\B([a-z])\.\B/) //("/([a-z])\.\B/");
+					console.log(period++);
+					var extractTrunc = extract.substring(0, period + 1);
 					var articleTitle = json.query.pages[json.query.pageids[0]].title;
 					var list = document.querySelector("#list");
 					//link to this pages URL using query string: ?curid=_
@@ -37,7 +40,6 @@ function main(){
 				}); //Article GET
 			}; //FOR IN
 		});	// Search Result GET
-
 		input.value = "";
 	}); //Search Click Event
 }; //main()
