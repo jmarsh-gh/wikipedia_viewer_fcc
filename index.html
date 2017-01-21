@@ -12,33 +12,27 @@
 <br>
 <div class="container well">
 	<h1>Wikipedia Viewer</h1>
-	<input type="" name="">   <button id="search" class="btn-sml btn-primary">Search</button>
+	<div class="form-group">
+  		<div class="input-group">	
+    		<input class="form-control" type="text" id="searchText" placeholder="Search wikipedia">
+    		<span class="input-group-btn">
+      			<button class="btn btn-primary" type="button" id="search"><i class="glyphicon glyphicon-search"></i></button>
+    		</span>
+  		</div>
+	</div>
+	<!-- <input type="searchTxt" name="text" id="searchText" placeholder="Search wikipedia">    -->
+	<!-- <button id="search" class="btn-sml btn-primary"><i class="glyphicon glyphicon-search"></i></button> -->
 	<br>
 	<br>
 	<div>
 		<ul class= "list-group" id="list">
 		</ul>
 	</div>
-	<!-- <div class="list-group" id="list">
-		
-	</div> -->
 	<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
 		<button class="btn btn-primary" onclick="this.blur()">Random Article</button>
 	</a>
 	<br>
 	<br>
-<div>
-	<ol class="list-group">
-		<li class="list-group-item active">one</li>
-		<a href="#" class="list-group-item active">two</a>
-		<!-- why does classList.add work on this hardcoded li but not of the js created one? -->
-		<li class="">three</li>
-	</ol>
-</div>
-<!-- <div id="resizable" class="ui-widget-content">
-  	<h3 class="ui-widget-header">Resizable</h3>
-</div>-->
-
 </div>
 
 	<footer class="container">

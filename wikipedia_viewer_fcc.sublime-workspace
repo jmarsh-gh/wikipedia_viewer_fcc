@@ -63,7 +63,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1615,
+				"buffer_size": 1676,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -80,7 +80,7 @@
 			"file": "js/logic.js",
 			"settings":
 			{
-				"buffer_size": 3048,
+				"buffer_size": 3252,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -98,7 +98,7 @@
 			"file": "/C/Users/schrobot/Dropbox/github/100DaysOfCode/log.md",
 			"settings":
 			{
-				"buffer_size": 7133,
+				"buffer_size": 7639,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -253,15 +253,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1615,
+						"buffer_size": 1676,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								697,
-								697
+								1126,
+								1126
 							]
 						],
 						"settings":
@@ -272,7 +272,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -311,15 +311,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3048,
+						"buffer_size": 3252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1571,
-								1571
+								2598,
+								2598
 							]
 						],
 						"settings":
@@ -327,11 +327,11 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 88.0,
-						"translation.y": 162.0,
+						"translation.x": 0.0,
+						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -368,15 +368,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7133,
+						"buffer_size": 7639,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6904,
-								6817
+								7482,
+								7482
 							]
 						],
 						"settings":
@@ -384,7 +384,7 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3118.0,
+						"translation.y": 3303.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
