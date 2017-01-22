@@ -57,7 +57,7 @@ function results(){
 		}; //FOR IN
 	});	// Search Result GET
 	input.value = ""; 
-};
+}; //results
 
 
 
